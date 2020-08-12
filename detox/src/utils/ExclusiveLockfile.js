@@ -37,7 +37,7 @@ class ExclusiveLockfile {
     try {
       return (await fn());
     } finally {
-      this._unlock();
+      await this._unlock();
     }
   }
 

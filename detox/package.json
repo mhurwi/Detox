@@ -32,6 +32,7 @@
     "eslint": "^4.11.0",
     "eslint-plugin-node": "^6.0.1",
     "jest": "26.x.x",
+    "mocha": "^8.1.0",
     "mockdate": "^2.0.1",
     "prettier": "1.7.0",
     "react-native": "0.62.x",
@@ -47,6 +48,7 @@
     "funpermaproxy": "^1.0.1",
     "get-port": "^2.1.0",
     "ini": "^1.3.4",
+    "jest-cli": "^26.2.2",
     "lodash": "^4.17.5",
     "minimist": "^1.2.0",
     "proper-lockfile": "^3.0.2",
@@ -59,7 +61,8 @@
     "which": "^1.3.1",
     "ws": "^3.3.1",
     "yargs": "^13.0.0",
-    "yargs-parser": "^13.0.0"
+    "yargs-parser": "^13.0.0",
+    "yargs-unparser": "^1.6.3"
   },
   "engines": {
     "node": ">=8.3.0"
